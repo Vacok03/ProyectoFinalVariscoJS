@@ -1,0 +1,84 @@
+[
+    {
+        "id": "tigreCaño",
+        "titulo": "Caño Tigre",
+        "imagen":"../images/cañotigre.png",
+        "categoria":{
+            "nombre": "Agua",
+            "id": "Agua"
+        }
+    },
+    {
+        "id": "tigreCodo" ,
+        "titulo": "Codo Tigre",
+        "imagen":"../images/codotigre.png",
+        "categoria":{
+            "nombre": "Agua",
+            "id": "Agua"
+        }
+        
+    },
+    {
+        "id":"tigreCupla" ,
+        "titulo": "Cupla Tigre",
+        "imagen":"../images/cuplatigre.png",
+        "categoria":{
+            "nombre": "Agua",
+            "id": "Agua"
+        }
+    },
+    {
+        "id":"sigasCaño" ,
+        "titulo": "Caño Sigas",
+        "imagen":"../images/cañosigas.png",
+        "categoria":{
+            "nombre": "Gas",
+            "id": "Gas"
+        }
+    },
+    {
+        "id":"sigasCodo" ,
+        "titulo":"Codo Sigas" ,
+        "imagen":"../images/codosigas.jpeg",
+        "categoria":{
+            "nombre": "Gas",
+            "id": "Gas"
+        }
+    },
+    {
+        "id": "sigasCupla",
+        "titulo": "Cupla Sigas",
+        "imagen":"../images/cuplasigas.png",
+        "categoria":{
+            "nombre": "Gas",
+            "id": "Gas"
+        }
+    },
+    {
+        "id":"awaducCaño" ,
+        "titulo": "Caño Awaduc",
+        "imagen":"../images/cañoawaduc.jpeg",
+        "categoria":{
+            "nombre": "Cloaca",
+            "id": "Cloaca"
+        }
+    },
+    {
+        "id": "awaducCodo",
+        "titulo": "Codo Awaduc",
+        "imagen":"../images/codoawaduc.jpg",
+        "categoria":{
+            "nombre": "Cloaca",
+            "id": "Cloaca"
+        }
+    },
+    {
+        "id": "awaducCupla",
+        "titulo": "Cupla Awaduc",
+        "imagen":"../images/cuplaawaduc.jpeg",
+        "categoria":{
+            "nombre": "Cloaca",
+            "id": "Cloaca"
+        }
+    }
+]
