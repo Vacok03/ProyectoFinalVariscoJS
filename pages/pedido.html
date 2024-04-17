@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sección de Gas</title>
+    <title>Pedido</title>
     <link rel="stylesheet" href="/css/estilos.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="../js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-              <a class="navbar-brand"> <img class="logo-cano" src="../images/canosur.png" alt="Caño Sur logo"></a>
+              <a class="navbar-brand"> <img class="logo-cano" src="../images/canosur.png" alt="Logo de Caño Sur"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -24,11 +24,9 @@
                   <li class="nav-item">
                     <a class="nav-link" href="../pages/agua.html">Agua</a>
                   </li>
-              
                   <li class="nav-item">
-                    <a class="nav-link" href="../index.html">Home</a>
+                    <a class="nav-link" href="../index.html">Inicio</a>
                   </li>
-
                   <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="../pages/cloaca.html">Cloaca</a>
                   </li>
@@ -40,16 +38,19 @@
             </div>
           </nav>
     </header>
+
     <h1>Detalle del Pedido</h1>
 
-    <div id="carrito-container">
-       
-    </div>
+    <ul id="carrito-container"></ul>
 
-      
+    <button id="hacer-pedido-btn" class="btn btn-primary">Hacer Pedido</button>
+
+
     <footer>
         <p>&copy; 2024 Caño Sur</p>
     </footer>
-    
+
+
+    <script src="/js/main.js"></script>
 </body>
 </html>
